@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="burger" (click)="navbarSlide()" #burger>
+    <div class="line-1"></div>
+    <div class="line-2"></div>
+    <div class="line-3"></div>
+  </div>
+  <div class="logo">
+    <span>auditor.</span>
+  </div>
+  <ul class="nav-links" #navLinks>
+    <li class="nav-item components" #componentsRef>
+      <div class="nav-link" #componentsLinkRef>
+        <a href="#">Ledger</a>
+      </div>
+    </li>
+    <li class="nav-item projects" #projectsRef>
+      <div class="nav-link" #projectsLinkRef>
+        <a href="#">Transactions</a>
+      </div>
+    </li>
+    <li class="nav-item blogs" #blogsRef>
+      <div class="nav-link" #blogsLinkRef>
+        <a href="#">About</a>
+      </div>
+    </li>
+  </ul>
+</nav>

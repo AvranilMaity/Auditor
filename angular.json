@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Auditor"
+    }
+  },
+  "defaultProject": "Auditor",
+  "cli": {
+    "analytics": false
+  }
 }

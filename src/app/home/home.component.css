@@ -1,0 +1,28 @@
+.home {
+  width: 100vw;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .available-balance-card {
+    margin: auto;
+    padding: 20px 10px;
+    width: 80vw;
+    border-radius: 4px;
+    background-color: #576574;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  }
+  .balance-label {
+    color: #c8d6e5;
+    font-size: 13px;
+  }
+  .available-balance {
+    color: #feca57;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
